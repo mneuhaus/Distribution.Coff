@@ -1,0 +1,16 @@
+-
+  name: CoffProvider
+  uriPattern: '<CoffSubroutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    CoffSubroutes:
+      package: 'Famelo.Coff'
+-
+  name: Flow
+  uriPattern: '<FlowSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow
